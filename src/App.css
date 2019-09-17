@@ -89,12 +89,26 @@ footer {
 }
 
 .type1 {
-    width: 250px;
-    height: 250px;
-    background: aqua;
-    border: 20px solid blue;
+    width: 200px;
+    height: 200px;
+    border: 15px solid blue;
     text-align: -webkit-center;
 }
+
+
+.imageStyle{
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+}
+
+/*
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 .type2 {
     width: 250px;
@@ -111,4 +125,4 @@ footer {
     border: 20px solid blue;
     text-align: -webkit-center;
 }
-
+*/
