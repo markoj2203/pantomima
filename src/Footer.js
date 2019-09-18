@@ -1,11 +1,13 @@
 import React from 'react';
  
-function Footer() {
-  return (
-    <div className="hero-foot footerMenu">
-      Footer    
-    </div>
-  );
+class Footer extends React.Component {
+  render(){
+	  return (
+	    <div className="hero-foot footerMenu">
+	      Footer    
+	    </div>
+	  );
+	}
 }
  
 export default Footer;

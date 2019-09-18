@@ -1,11 +1,13 @@
 import React from 'react';
  
-function Header() {
-	return (
-		<div className="hero-head headerMenu">
-	        Header
-	    </div>
-	);
+class Header extends React.Component {
+  render(){
+		return (
+			<div className="hero-head headerMenu">
+		        Izaberite Kategoriju
+		    </div>
+		);
+	}
 }
  
 export default Header;
