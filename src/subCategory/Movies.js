@@ -1,14 +1,13 @@
 import React from 'react';
-
  
-class Movies extends React.Component{
+class Movies extends React.Component {
   render(){
-	  return (
-	    <div>
-			Movies
-	    </div>
-	  );
-	}
+    return (
+      <div>
+        	Movies   
+      </div>
+    );
+  }
 }
  
 export default Movies;

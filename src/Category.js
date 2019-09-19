@@ -1,34 +1,34 @@
 import React from 'react';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Navigation from './Navigation';
+
+import Movies from './subCategory/Movies';
+import Books from './subCategory/Books';
+import Other from './subCategory/Other'; 
  
 class Category extends React.Component {
-  
-  handleClick = () => {
-    console.log('this is:', this);
-  }
 
-  render(){
+  	render(){
 
-  	const capitalize = (s) => {
-	  if (typeof s !== 'string') return ''
-	  return s.charAt(0).toUpperCase() + s.slice(1)
-	}
+	  	return (
 
-  	const  elements = ['asociacije', 'pantomima', 'drawing'];
+	  		<BrowserRouter>
+	  			<div>
+	  				<Navigation />
+	  				<Switch>
+	  					<Route path="/movies" component={Movies} ></Route>
+	  					<Route path="/books" component={Books} ></Route>
+	  					<Route path="/other" component={Other} ></Route>
+	  				</Switch>
+	  			</div>
+	  		</BrowserRouter>
 
-  	const items = [];
+		);
 
-  	for (const [index, value] of elements.entries()) {		
-  		var imgName = value+".png";
-		var capLetter = capitalize(value);
-	    items.push(<div key={index} className="column is-one-quarter categoryPos"><div className="circleBase type1"><img className="imageStyle" src={imgName} alt={capLetter} onClick={this.handleClick} /></div></div>);
-	}
+	}	
 
-	  return (
-	    <div className="columns is-centered">
-			{items}
-	    </div>
-	  );
-	}
-}
+}  
+
+
  
 export default Category;
