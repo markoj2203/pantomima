@@ -102,27 +102,11 @@ footer {
   margin: 25px;
 }
 
-/*
-img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.cgContent{
+  border: 1px solid black;
+  background-color: white;
+  height:400px;
+  width:300px;
+  text-align: center;
 }
 
-
-.type2 {
-    width: 250px;
-    height: 250px;
-    background: aqua;
-    border: 20px solid blue;
-    text-align: -webkit-center;
-}
-
-.type3 {
-    width: 250px;
-    height: 250px;
-    background: aqua;
-    border: 20px solid blue;
-    text-align: -webkit-center;
-}
-*/
