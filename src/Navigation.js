@@ -35,21 +35,21 @@ class Navigation extends React.Component {
 		    	<NavLink to="/movies" onClick={this.handleClick}   >
 			    	<div className="column is-one-quarter categoryPos">
 			    		<div className="circleBase type1">
-			    			<img className="imageStyle" src="asociacije.png" alt="Asociacije" />
+			    			<img className="imageStyle" src="movies.png" alt="Filmovi" />
 		    			</div>
 					</div>
 				</NavLink>
 				<NavLink to="/books" onClick={this.handleClick} >
 					<div className="column is-one-quarter categoryPos">
 			    		<div className="circleBase type1">
-			    			<img className="imageStyle" src="pantomima.png" alt="Pantomima" />
+			    			<img className="imageStyle" src="books.png" alt="Knjige" />
 		    			</div>
 					</div>
 				</NavLink>
 				<NavLink to="/other" onClick={this.handleClick} >
 					<div className="column is-one-quarter categoryPos">
 			    		<div className="circleBase type1">
-			    			<img className="imageStyle" src="drawing.png" alt="Crtanje"  />
+			    			<img className="imageStyle" src="others.png" alt="Pojmovi"  />
 		    			</div>
 					</div>
 				</NavLink>
